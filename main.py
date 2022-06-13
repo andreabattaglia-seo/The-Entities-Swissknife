@@ -23,10 +23,8 @@ import streamlit as st
 import utils
 import time
 
-#author_textrazor_token = os.getenv("TEXTRAZOR_TOKEN")
-author_textrazor_token = os.getenv("3c2d037d5a3f91e7842470c8d2457df2ed172ac59d4d9ace8b212e1a")
-#author_google_key = os.getenv("GOOGLE_KEY")
-author_google_key = os.getenv("476c2d3b3685249858d6c774a59ab360a8eb8ae9")
+author_textrazor_token = os.getenv("TEXTRAZOR_TOKEN")
+author_google_key = os.getenv("GOOGLE_KEY")
 # print(author_google_key)
 
 st.set_page_config(
